@@ -1,0 +1,34 @@
+{
+	"tests": [
+	{
+		"name": "Build program",
+		"setup": "",
+		"run": "timeout 10 make",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 10,
+		"points": 3
+	},
+	{
+		"name": "Verify printing Hello World!",
+		"setup": "make",
+		"run": "timeout 10 ./main",
+		"input": "",
+		"output": ":",
+		"comparison": "included",
+		"timeout": 10,
+		"points": 2
+	},
+	{
+		"name": "Verify printing Hello World!",
+		"setup": "make",
+		"run": "timeout 10 ./main",
+		"input": "",
+		"output": "Hello World!",
+		"comparison": "included",
+		"timeout": 10,
+		"points": 5
+	}
+	]
+}
