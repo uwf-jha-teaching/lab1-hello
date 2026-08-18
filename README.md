@@ -58,7 +58,7 @@ the git version control system.
 - You will be prompt for user name and password to authenticate. Use your
   username and personal token to authenticate log in using HTTPS.
 
-This will create a directory called lab1-YOUR_ID that will contain this
+This will create a directory called lab-hello-world-YOUR_ID that will contain this
 README.md file along with some supporting files.
 
 If you have never used Git before, you'll need to run a few one-time
